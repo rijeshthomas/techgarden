@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/techgarden/static/css/main.5f361e03.chunk.css",
+    "main.js": "/techgarden/static/js/main.3d5be15d.chunk.js",
+    "main.js.map": "/techgarden/static/js/main.3d5be15d.chunk.js.map",
+    "runtime-main.js": "/techgarden/static/js/runtime-main.0267604e.js",
+    "runtime-main.js.map": "/techgarden/static/js/runtime-main.0267604e.js.map",
+    "static/js/2.d58d5db8.chunk.js": "/techgarden/static/js/2.d58d5db8.chunk.js",
+    "static/js/2.d58d5db8.chunk.js.map": "/techgarden/static/js/2.d58d5db8.chunk.js.map",
+    "index.html": "/techgarden/index.html",
+    "precache-manifest.df67cf5a72d73e5af19b6fc6def88185.js": "/techgarden/precache-manifest.df67cf5a72d73e5af19b6fc6def88185.js",
+    "service-worker.js": "/techgarden/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/techgarden/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.d58d5db8.chunk.js.LICENSE.txt": "/techgarden/static/js/2.d58d5db8.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/techgarden/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0267604e.js",
+    "static/js/2.d58d5db8.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.3d5be15d.chunk.js"
+  ]
+}
