@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { Home } from './Home/Home.component';
+import { About } from './About/About.component';
+import { Contact } from './Components/Contact/contact.component';
+import { Careers } from './Components/Careers/careers.component';
+import { Layout } from './Layout.component';
+import { NavigationBar } from './Components/Navigation/navigation.component';
+import { Header } from './Components/Header/header.component';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+
+class App extends Component {
+  render() {
+    return (
+   <React.Fragment>
+     <NavigationBar/>
+     
+     <Layout class='App'>
+<Router>
+  <Switch>
+    <Route exact path ="" component = {Home}></Route>
+    <Route exact path ="/about" component = {About}></Route>
+    <Route exact path ="/contact" component = { Contact } ></Route>
+    <Route exact path ="/careers" component = { Careers }></Route>
+    
+  </Switch>
+</Router>
+</Layout>
+   </React.Fragment>
   );
 }
-
+}
 export default App;
